@@ -24,11 +24,12 @@ interface NuxtApolloConfiguration {
   }
 }
 
+/*
 declare module '@nuxt/config' {
   interface NuxtConfiguration {
     apollo?: NuxtApolloConfiguration
   }
-}
+}*/
 
 declare module '@nuxt/vue-app' {
   interface NuxtAppOptions extends ComponentOptions<Vue> {
